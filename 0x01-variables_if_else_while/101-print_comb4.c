@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - Prints all combinations of three digits with,
- *  and space followed by new line
+ * and space followed by new line
  * Return: returns 0
  */
 int main(void)
@@ -14,20 +14,20 @@ int main(void)
 		{
 			for (digit3 = digit2 + 1; digit3 < 10; digit3++)
 			{
+
 				putchar((digit1 % 10) + '0');
 				putchar((digit2 % 10) + '0');
 				putchar((digit3 % 10) + '0');
 
-				if (digit1 == 7 && digit2 == 8 && digit3 == 9
-						continue;
+				if (digit1 == 7 && digit2 == 8 && digit3 == 9)
+					continue;
 
-						putchar(',');
-						putchar(' ');
-						}
-						}
-						}
-						putchar('\n');
-						return (0);
-						}
-
+				putchar(',');
+				putchar(' ');
+			}
+		}
+	}
+	putchar('\n');
+	return (0);
+}
 
