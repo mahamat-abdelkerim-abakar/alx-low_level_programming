@@ -1,14 +1,18 @@
 #include "main.h"
 /**
- * _isupper - function that verifies if a  character is uppercase or not
- * @c: tested character
- * Return: returns 1 if it is uppercase , 0 if not
+ * main - function prints text as output
+ * Return:return 0
  */
-int _isupper(int c)
+int main(void)
 {
+	char school[10] = "_putchar";
+	int i;
 
-	if ((c >= 'A') && (c <= 'Z')
-        return (1);
+	for (i = 0; i < 8; i++)
+	{
+		_putchar(school[i]);
+	}
+	_putchar(10);
 	return (0);
 }
 
