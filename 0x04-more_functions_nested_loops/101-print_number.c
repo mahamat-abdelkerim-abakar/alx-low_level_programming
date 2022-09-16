@@ -18,13 +18,11 @@ void print_number(int n)
 		ld = (char)('0' - (n % 10));
 		n = n / -10;
 	}
-
 	else
 	{
 		ld = (char)((n % 10) + '0');
 		n = n / 10;
 	}
-	
 	r = 0;
 	while (n > 0)
 	{
@@ -32,7 +30,6 @@ void print_number(int n)
 		n = n / 10;
 		ct++;
 	}
-
 	while (r > 0)
 	{
 		cr = (char)((r % 10) + '0');
@@ -47,3 +44,4 @@ void print_number(int n)
 	}
 	_putchar(ld);
 }
+
