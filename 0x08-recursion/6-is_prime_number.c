@@ -5,7 +5,6 @@
  * @n: number to be checked
  * Return: 1 if n is prime, 0 otherwise
  */
-
 int is_prime_number(int n)
 {
 	int start = n / 2;
@@ -21,7 +20,6 @@ int is_prime_number(int n)
  * @start: number to start checking from
  * Return: 1 if n is prime, 0 otherwise
  **/
-
 int is_prime(int n, int start)
 {
 	if (start <= 1)
@@ -30,3 +28,4 @@ int is_prime(int n, int start)
 		eturn (0);
 	return (is_prime(n, start - 1));
 }
+
