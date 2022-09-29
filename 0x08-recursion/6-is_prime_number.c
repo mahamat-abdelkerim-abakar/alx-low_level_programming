@@ -26,6 +26,6 @@ int is_prime(int n, int start)
 		return (1);
 	else if (n % start == 0)
 	return (0);
-	return (is_prime_number(n, start - 1));
+	return (is_prime(n, start - 1));
 }
 
